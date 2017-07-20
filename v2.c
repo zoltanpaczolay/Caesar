@@ -11,9 +11,9 @@ int main(int argc, string argv[])
         int k = atoi(argv[1]);
         
         //Prompt user to write something.
-        printf("Plaintext: ");
+        printf("plaintext: ");
         string p = get_string();
-        printf("Ciphertext: ");
+        printf("ciphertext: ");
         
         //Iterate over the characters of plaintext, cyhper it if letters. 
         for(int i = 0, n = strlen(p); i < n; i++)
